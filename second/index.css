@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    
+}
+
+header {
+    border: 4px solid;
+    margin: 15px;
+    height: 20vh;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box
+}
+.purple {
+    background-color: rgba(136, 54, 230, 0.99);
+    height: 120px;
+    width: 40px;
+    align-self: flex-end;
+    
+}
+.green {
+background-color: green;
+height: 160px;
+width: 300px;
+margin-left: 40px;
+}
+.blue {
+background-color: lightblue;
+height: 160px;
+width: 160px;
+border-radius: 50%;
+margin-left: 40px;
+}
+
+main {
+    border: 4px dotted;
+    margin: 15px;
+    height: 30vh;
+    margin-top: 20px;
+    box-sizing: border-box
+}
+
+.rect {
+    background-color: rgb(252, 236, 191);
+    width: 85vw;
+    height: 180px;
+    margin: 45px;
+    margin-top: 45px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.square {
+    width: 50%;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    margin: 25px auto;
+    padding: 120px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+}
+h1 {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 10px;
+    color: navy;
+    font-weight: bold;
+    font-size: 23px
+}
